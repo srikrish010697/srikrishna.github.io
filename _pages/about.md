@@ -48,52 +48,27 @@ __Vellore institute of technology__ BTech. Electronics and communication enginee
 ## Selected Publications   
 <div class="pub-list-item" style="margin-bottom: 1rem">
 <span itemprop="author">
-<strong>Truong, D. D.</strong> et.al</span>.
-  <a href="https://www.biorxiv.org/content/10.1101/2022.01.21.476982v1" itemprop="name" target="_blank">
-    Dissociation protocols used for sarcoma tissues bias the transcriptome observed in single-cell and single-nucleus RNA sequencing</a>.
-  In <em>bioRxiv</em>,  2022.
+<strong>S Iyer</strong> et.al</span>.
+  <a href="https://www.mdpi.com/1424-8220/22/9/3106" itemprop="name" target="_blank">
+    mm-Wave Radar-Based Vital Signs Monitoring and Arrhythmia Detection Using Machine Learning</a>.
+  In <em>Sensors MDPI</em>,  2022.
 </div>
 
 <div class="pub-list-item" style="margin-bottom: 1rem">
 <span itemprop="author">
-<strong>Truong, D. D.</strong>, Kratz, A., Park, J. G., Barrientos, E. S. et.al</span>.
-  <a href="https://doi.org/10.1158/0008-5472.CAN-18-2293" itemprop="name" target="_blank">
-    A human organotypic microfluidic tumor model permits investigation of the interplay between patient-derived fibroblasts and breast cancer cells</a>.
-  In <em>Cancer Research</em>,  2019.
+<strong>S Iyer</strong>, et.al</span>.
+  <a href="https://link.springer.com/article/10.1007/s00521-020-05366-9" itemprop="name" target="_blank">
+    Structural health monitoring of railway tracks using IoT-based multi-robot system</a>.
+  In <em>Neural computing and applications</em>,  2020.
 </div>
 
 <div class="pub-list-item" style="margin-bottom: 1rem">
 <span itemprop="author">
-<strong>Truong, D. D.</strong>, Fiorelli, R.,  Barrientos, E. S. et.al</span>.
-  <a href="https://doi.org/10.1016/j.biomaterials.2018.07.048" itemprop="name" target="_blank">
-    A three-dimensional (3D) organotypic microfluidic model for glioma stem cells–Vascular interactions</a>.
-  In <em>Biomaterials</em>,  2019.
+<strong>Truong, D. D.</strong>, Adwayt Pradeep Nadkarni, TN Padmini</span>.
+  <a href="https://ieeexplore.ieee.org/abstract/document/8960178/" itemprop="name" target="_blank">
+    Antlion optimization and Whale optimization Algorithm for multilevel thresholding segmentation</a>.
+  In <em>IEEE</em>,  2019.
 </div>
-
-<div class="pub-list-item" style="margin-bottom: 1rem">
-<span itemprop="author">
-Nagaraju, S.*, <strong>Truong, D.D.</strong>* et.al</span>.
-  <a href="https://doi.org/10.1002/adhm.201701257" itemprop="name" target="_blank">
-    Microfluidic tumor–vascular model to study breast cancer cell invasion and intravasation</a>.
-  In <em>Advanced healthcare materials</em>,  2018.
-</div>
-
-<div class="pub-list-item" style="margin-bottom: 1rem">
-<span itemprop="author">
-Peela, N.* ,<strong>Truong, D. D.</strong>*, Saini, H.* et.al</span>.
-  <a href="https://doi.org/10.1016/j.biomaterials.2017.04.017" itemprop="name" target="_blank">
-    Advanced biomaterials and microengineering technologies to recapitulate the stepwise process of cancer metastasis</a>.
-  In <em>Biomaterials</em>,  2017.
-</div>
-
-<div class="pub-list-item" style="margin-bottom: 1rem">
-<span itemprop="author">
-<strong>Truong, D. D.</strong>, Puleo, J. et.al</span>.
-  <a href="https://www.nature.com/articles/srep34094" itemprop="name" target="_blank">
-    A Breast cancer cell invasion into a three dimensional tumor-stroma microenvironment</a>.
-  In <em>Scientific Reports</em>,  2016.
-</div>
-  
 
 ## Contact me
 
