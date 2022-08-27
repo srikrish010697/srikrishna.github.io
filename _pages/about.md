@@ -6,55 +6,44 @@ toc: true
 author_profile: true
 ---
 
-## Danh D. Truong
+## Srikrishna Iyer
 
-Biomedical Engineering PhD 
+I am a Senior Research Engineer at [ST Engineering](https://www.stengg.com/) in the Data analytics strategic technology centre [DA STC](https://www.stengg.com/en/innovation/solving-the-world-s-problems-with-data-science/) where my general area of research is machine learning. I have a Masters degree from Nanyang Technological University, Singapore and I completed my undergrad in Vellore Institute of Technology, India. 
 
-I am a postdoctoral fellow at UT MD Anderson Cancer Center. I study mesenchymal tissue differentiation as a model for understanding the plasticity of soft tissue sarcomas and bone sarcomas. My research interests are cancer biology, phenotypic plasticity, and machine learning. My favorite book series is the The Expanse but I also love The Lord of the Rings and The Legend of Drizzt series. 
+## Research Interests
+
+* Deep learning
+* Ensemble learning
+* Explainable AI
+* Time series modelling : Predictive maintenance, anomaly detection
+* Multimodal machine learning learning : NLP, Computer vision
+
+My research goal is to leverage data-driven AI to extract key insights from structured and unstructured data that relates to existing knowledge of the world (eg. Images, language, sensors), thereby investigating and developing probabilistic models that are robust, generalized, interpretable, and optimized to help solve real-world problems more efficiently. More specifically, integrating multiple modalities including language, images and structured information using mutlimodal machine learning, thus tackle five key challenges associated to it:
+(1) Representation learning 
+(2) Translaiton and mapping 
+(3) modality alignment 
+(4) multimodal fusion 
+(5) co-learning 
 
 ## Experience
 
-`2019-` 
-__MD Anderson__ Post Doctoral Fellow (Sarcoma Medical Oncology)
+`2022-` 
+__Senior Research Engineer__ ST Engineering (Data analytics strategic technology centre)
 
-`2014-2018` 
-__Arizona State University__ Graduate Research Associate (School of Biological and Health Systems Engineering)
+`2020-2022` 
+__ASMPT__ Data Analyst I (Data science R&D department)
 
-`2012-2014` 
-__University of Texas at Arlington__ Undergraduate Research Assistant (Department of Bioengineering)
+`2019-2020` 
+__Singtel cogntive and artificial intelligence lab__ Postgraduate Research Assistant (Department of Computer science , Nanyang Technological University)
 
 ## Education
 
-`2014-18`
-__Arizona State University__ Biomedical Engineering PhD (advisor: Mehdi Nikkhah). My thesis was titled _Microfluidic Models of Tumor-Stroma Interactions to Study the Interplay of Cancer Cells with their Surrounding Microenvironment_ and is available through the [ASU Library | Digital Repository](https://repository.asu.edu/items/54067){:target="_blank"}.
+`2019-2020`
+__Nanyang Technological University__ Electrical and Electronics engineering (MSc. in Computer control & automation) (advisor: Muhammad Faeyz Karim). My thesis was titled _Vital signs monitoring system using FMCW mmWave radar with machine learning_.
 
-`2012-14`
-__University of Texas at Arlington & University of Texas Southwestern Medical Center__ MSc Biomedical Engineering
+`2015-2019`
+__Vellore institute of technology__ BTech. Electronics and communication engineering
 
-`2009-14`
-__University of Texas at Arlington__ BSc Biology 
-
-## Awards and Honors
-`2021`
-__Daniel Benedict Gazan Award in Sarcoma Research__ MD Anderson Cancer Center
-
-`2018`
-__Graduate Student Speaker__ Ira A. Fulton Schools of Engineering Convocation
-
-`2018` 
-__Completion Fellowship__ ASU Graduate College
-
-`2018` 
-__Graduate College Fellowship__ ASU Graduate College
-
-`2017-2019` 
-__ARCS Burton Scholar__ Phoenix Chapter of Achievement Rewards for College Scientists Foundation
-
-`2016-2018` 
-__IFER Graduate Fellowship__ International Foundation for Ethical Research 
-
-`2014-2018` 
-__Dean's Fellow__ ASU Dean's Fellowship
 
 ## Selected Publications   
 <div class="pub-list-item" style="margin-bottom: 1rem">
@@ -104,34 +93,11 @@ Peela, N.* ,<strong>Truong, D. D.</strong>*, Saini, H.* et.al</span>.
     A Breast cancer cell invasion into a three dimensional tumor-stroma microenvironment</a>.
   In <em>Scientific Reports</em>,  2016.
 </div>
-   
-## Other Activities 
-<table class="alternate_color">
-  <tr>
-    <td><a href="https://github.com/ivanvazquezphd/bc_code" target="_blank">Bioinformatics Café</a></td>
-    <td>This repository contains the Bioinformatics Café series 2022 developed by postdocs a MD Anderson. The series is a great opportunity to build the skills needed to succeed in bioinformatics from the ground up. The workshops will be taught by postdocs with years of experience programming.</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/danhtruong/Get-started-with-R-for-Biologists" target="_blank">Get-started-with-R-for-Biologists</a></td>
-    <td>This repository contains resources on getting started with R for biologists. R is a language and environment for statistical computing and graphics. It is widely used for a variety of statistical analysis (i.e., linear and nonlinear modeling, classical statistical tests, clustering, etc.). R is freely available and has a large collection of developed packages of different tools.</td>
-  </tr>
-  <tr>
-    <td><a href="https://canvas.mdanderson.org/courses/1585" target="_blank"> 11th Annual Postdoctoral Science Symposium</a></td>
-    <td>The Annual Postdoctoral Science Symposium provides a platform for postdoctoral fellows in the Texas Medical Center to present their current research in the areas of basic and translational research and features presentations and hosts interactive sessions facilitated by experts in a variety of fields.</td>
-  </tr>
-  <tr>
-    <td><a href="https://www.project-short.com" target="_blank">Project SHORT</a></td>
-    <td>Comprised of volunteer professional health and graduate students, residents, faculty, and post-docs, Project SHORT (Students for Higher-Ed Opportunities and Representation in Training) is the first organization to offer pro-bono mentoring for both professional health and graduate school admissions.</td>
-  </tr>
-  <tr>
-    <td><a href="https://whova.com/web/apcs_202010" target="_blank"> 2021 Annual Postdoctoral Career Symposium</a></td>
-    <td>The Annual Postdoctoral Career Symposium (APCS) is designed and run by postdocs to help postdocs and those finishing grad school to seek out the career options that appeal to them most, and in some cases open up doors that we might not have known existed.</td>
-  </tr>
-</table>
+  
 
 ## Contact me
 
-[dtruong4@mdanderson.org](mailto:dtruong4@mdanderson.org)
+[srikrishnaiyer@gmail.com](mailto:srikrishnaiyer@gmail.com)
 
 
 
