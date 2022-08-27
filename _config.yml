@@ -12,18 +12,18 @@
 
 #theme                  : "minimal-mistakes-jekyll"
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Danh Truong, PhD"
+title                    : "Srikrishna Iyer"
 title_separator          : "-"
-subtitle                 : "Works by Danh!" # site tagline that appears below site title in masthead
+subtitle                 : "Works by Srikrishna!" # site tagline that appears below site title in masthead
 name                     : ""
-description              : "Works by Danh!"
+description              : "Works by Srikrishna!"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "danhtruong/danhtruong.github.io"
+repository               : "srikrish010697/srikrishna.github.io"
 # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -80,7 +80,7 @@ baidu_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : danhdtruong
+  username               : #danhdtruong
 facebook:
   username               : 
   app_id                 :
@@ -103,40 +103,40 @@ analytics:
 
 # Site Author
 author:
-  name             : "Danh Truong"
+  name             : "Srikrishna Iyer"
   avatar           : "/images/170510-Danh-Truong-SL-0004.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Postdoctoral fellow at MD Anderson Cancer Center"
-  location         : "Houston, Texas"
+  bio              : "Sr. Research Engineer at ST Engineering Singapore"
+  location         : "Singapore"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:dtruong4@mdanderson.org"
+      url: "mailto:srikrishnaiyer@gmail.com"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/ddtruong"
+      url: "https://www.linkedin.com/in/krishna-iyer-449a27143/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/danhdtruong"
+      url: #"https://twitter.com/danhdtruong"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/danhtruong"
+      url: "https://github.com/srikrish010697"
 
 # Site Footer
-footer:
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:dtruong4@mdanderson.org"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/ddtruong"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/danhdtruong"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/danhtruong"    
+#footer:
+#  links:
+#    - label: "Email"
+#      icon: "fas fa-fw fa-envelope-square"
+#      url: "mailto:dtruong4@mdanderson.org"
+#    - label: "LinkedIn"
+#      icon: "fab fa-fw fa-linkedin"
+#      url: "https://linkedin.com/in/ddtruong"
+#    - label: "Twitter"
+#      icon: "fab fa-fw fa-twitter-square"
+#      url: "https://twitter.com/danhdtruong"
+#    - label: "GitHub"
+#      icon: "fab fa-fw fa-github"
+#      url: "https://github.com/danhtruong"    
 
 # Reading Files
 include:
