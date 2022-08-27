@@ -64,7 +64,7 @@ __Vellore institute of technology__ BTech. Electronics and communication enginee
 
 <div class="pub-list-item" style="margin-bottom: 1rem">
 <span itemprop="author">
-<strong>Truong, D. D.</strong>, Adwayt Pradeep Nadkarni, TN Padmini</span>.
+<strong>S Iyer</strong>, Adwayt Pradeep Nadkarni, TN Padmini</span>.
   <a href="https://ieeexplore.ieee.org/abstract/document/8960178/" itemprop="name" target="_blank">
     Antlion optimization and Whale optimization Algorithm for multilevel thresholding segmentation</a>.
   In <em>IEEE</em>,  2019.
