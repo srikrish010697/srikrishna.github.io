@@ -21,7 +21,7 @@ The radar cube is first processed along its columns i.e. range using 1D FFT.
  - Then, the CASO-CFAR (Cell average smallest of – Constant false alarm rate) algorithm is used for object detection based on a range-azimuth heatmap. To determine the velocity vector of objects detected, doppler FFT is computed.
  - Finally, after the point clouds of the objects are grouped and tracked, point cloud information is serially transmitted to the RPi through UART communication. For real time communication, a message broker( RabbitMQ) is used to upload a single observation to the cloud storage server.  
 
-![]({{ site.baseurl }}/images/DPT_files/figure1.JPG)
+                                              ![]({{ site.baseurl }}/images/DPT_files/figure1.jpg)
 
 The above workflow can be subdivided into four main components:
  1. Range FFT through Range Azimuth Heatmap with Capon BF
@@ -33,7 +33,7 @@ The above workflow can be subdivided into four main components:
 
 As shown in figure 2, Raw Data is processed with a 1-D FFT (Range Processing) and Static Clutter Removal is applied to the result. Then Capon Beamforming is used to generate a range-azimuth heatmap. 
 
-![]({{ site.baseurl }}/images/DPT_files/figure2.JPG)
+                                              ![]({{ site.baseurl }}/images/DPT_files/figure2.jpg)
 
  1. Range processing
 For each antenna, EDMA is used to move samples from the ADC output buffer to the FFT Hardware Accelerator (HWA), controlled by the Cortex R4F. A 16-bit, fixed-point 1D windowing and 16-bit, fixed-point, 1D FFT are performed. EDMA is used to move output from the HWA local memory to the radar cube storage in layer three (L3) memory. Range processing is interleaved with active chirp time of the frame. All other processing occurs each frame, except where noted, during the idle time between the active chirp time and the end of the frame.
