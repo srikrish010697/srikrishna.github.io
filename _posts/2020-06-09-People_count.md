@@ -21,7 +21,7 @@ The radar cube is first processed along its columns i.e. range using 1D FFT.
  - Then, the CASO-CFAR (Cell average smallest of – Constant false alarm rate) algorithm is used for object detection based on a range-azimuth heatmap. To determine the velocity vector of objects detected, doppler FFT is computed.
  - Finally, after the point clouds of the objects are grouped and tracked, point cloud information is serially transmitted to the RPi through UART communication. For real time communication, a message broker( RabbitMQ) is used to upload a single observation to the cloud storage server.  
 
-![]({{ site.baseurl }}/images/DPT_files/figure1.jpeg)
+![]({{ site.baseurl }}/images/DPT_files/figure1.JPG)
 
 The above workflow can be subdivided into four main components:
  1. Range FFT through Range Azimuth Heatmap with Capon BF
@@ -33,7 +33,7 @@ The above workflow can be subdivided into four main components:
 
 As shown in figure 2, Raw Data is processed with a 1-D FFT (Range Processing) and Static Clutter Removal is applied to the result. Then Capon Beamforming is used to generate a range-azimuth heatmap. 
 
-![]({{ site.baseurl }}/images/DPT_files/figure2.jpeg)
+![]({{ site.baseurl }}/images/DPT_files/figure2.JPG)
 
  1. Range processing
 For each antenna, EDMA is used to move samples from the ADC output buffer to the FFT Hardware Accelerator (HWA), controlled by the Cortex R4F. A 16-bit, fixed-point 1D windowing and 16-bit, fixed-point, 1D FFT are performed. EDMA is used to move output from the HWA local memory to the radar cube storage in layer three (L3) memory. Range processing is interleaved with active chirp time of the frame. All other processing occurs each frame, except where noted, during the idle time between the active chirp time and the end of the frame.
@@ -61,7 +61,7 @@ The Capon BF algorithm is split into two components: a) the Spatial Covariance M
 
 Using the heatmap generated in the range processing step, 2 Pass CFAR is used to generated detected points in the Range-Azimuth spectrum. For each detected point, Capon is applied to generate a 1D elevation angular spectrum, which is used to determine the elevation angle of the point.
 
-![]({{ site.baseurl }}/images/DPT_files/figure3.jpeg)
+![]({{ site.baseurl }}/images/DPT_files/figure3.JPEG)
 
  1. Object detection
 Two pass CFAR algorithms is used on the range azimuth heat map to perform the object detection using the CFAR "smallest of" method. First pass is done per angle bin along the range domain. Second pass in the angle domain is used confirm the detection from the first pass. The output detected point list is stored in L2 memory.
@@ -84,14 +84,14 @@ For each detected point in range and azimuth(angle) space, Doppler is estimated 
  4. Doppler
  5. SNR
 
-![]({{ site.baseurl }}/images/DPT_files/figure4.jpeg)
+![]({{ site.baseurl }}/images/DPT_files/figure4.JPG)
 
 
 ## 4. Group Tracker
 
 It is possible to create multiple instances of group tracker. Figure 10 shows the steps algorithm goes during each frame call. The algorithm inputs measurement data in polar coordinates (range, azimuth, elevation, Doppler, SNR), and tracks objects in Cartesian space. Therefore, the extended Kalman filter (EKF) process is used.
 
-![]({{ site.baseurl }}/images/DPT_files/figure5.jpeg)
+![]({{ site.baseurl }}/images/DPT_files/figure5.JPG)
 
 Point cloud input is first tagged based on scene boundaries. Some points may be tagged as outside the boundaries and are ignored in association and allocation processes. Each iteration of the tracker runs through the following steps:
  1. If a track exists, use a Kalman filter to predict the tracking group centroid for time n based on state and process covariance matrices, estimated at time n-1. Compute a-priori state and error covariance estimations for each trackable object. At this step, compute measurement vector estimations.
@@ -102,14 +102,11 @@ Point cloud input is first tagged based on scene boundaries. Some points may be 
 The report function queries each tracking unit and produces the algorithm output.
 
 
-
-
-
 # Proof of concept 
 
 ### Features of the implemented system
 
-![]({{ site.baseurl }}/images/DPT_files/figure6.jpeg)
+![]({{ site.baseurl }}/images/DPT_files/figure6.JPG)
 
 ### Expected outcomes of implemented system
 
@@ -128,13 +125,13 @@ The report function queries each tracking unit and produces the algorithm output
 
 ### Calibration procedure for IWR1642
 
-![]({{ site.baseurl }}/images/DPT_files/figure7.jpeg)
+![]({{ site.baseurl }}/images/DPT_files/figure7.JPG)
 
 #### Step 1: set scene parameters
 
 Modify the .cfg file as: SceneryParam -2 2 0.05 14 (Left right back front). This forms the area of interest in the form of a rectangle. People outside this zone will not be detected. To display the area of interest on the GUI, modify the distance to boundary parameters as shown in figure below.
 
-![]({{ site.baseurl }}/images/DPT_files/figure8.jpeg)
+![]({{ site.baseurl }}/images/DPT_files/figure8.JPG)
 
 #### Step 2: Check for too few detections. 
 
@@ -156,7 +153,7 @@ Points threshold: Increase this threshold to allocate more points required to re
   b. State parameters:
 The allocation parameters are modified in .cfg file: StateParam 10 4 10 50 3. The significance of each parameter is described in the Table 1 in the same order:
 
-![]({{ site.baseurl }}/images/DPT_files/figure9.jpeg)
+![]({{ site.baseurl }}/images/DPT_files/figure9.JPG)
 
 These parameters determine the state of the person detected. The states include:
   i.        FREE: No detection, radar is in resting stage
@@ -194,13 +191,13 @@ There are 3 conditions under ACTIVE stage. They include:
  - The point cloud tracking and gating is displayed in the figure below, along with the people count and detection points of a single person within range= 14m.
  - Run the demo by keying in the COM ports for UART and DATA ports ( Device manager COM ports), then press start to start the GUI. If detection continuous to have artifacts then go back to step 2.
 
-![]({{ site.baseurl }}/images/DPT_files/figure10.jpeg)
+![]({{ site.baseurl }}/images/DPT_files/figure10.JPG)
 
 
 #### Step 6: Setting sub-zones for people counting 
 To further reduce false detections and increase accuracy, we can define rectangular sub zones within the FOV as highlighted in figure below, The GUI displays a separate count for people are detected within these subzones. In the GUI it can be set as: [LCx, LCy, W, H]. Multiple zones can be set as: [LCx1, LCy1, W1, H1; LCx2, LCy2, W2, H2; ……. LCxn, LCyn, Wn, Hn]. 
 
-![]({{ site.baseurl }}/images/DPT_files/figure11.jpeg)
+![]({{ site.baseurl }}/images/DPT_files/figure11.JPG)
 
 
 
