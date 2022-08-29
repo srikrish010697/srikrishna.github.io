@@ -21,7 +21,7 @@ The radar cube is first processed along its columns i.e. range using 1D FFT.
  - Then, the CASO-CFAR (Cell average smallest of – Constant false alarm rate) algorithm is used for object detection based on a range-azimuth heatmap. To determine the velocity vector of objects detected, doppler FFT is computed.
  - Finally, after the point clouds of the objects are grouped and tracked, point cloud information is serially transmitted to the RPi through UART communication. For real time communication, a message broker( RabbitMQ) is used to upload a single observation to the cloud storage server.  
 
-![]({{ site.baseurl }}/images/DPT_files/figure1.png)
+ ![]({{ site.baseurl }}/images/DPT_files/figure1.png)
 
 The above workflow can be subdivided into four main components:
  1. Range FFT through Range Azimuth Heatmap with Capon BF
