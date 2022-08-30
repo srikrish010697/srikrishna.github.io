@@ -121,6 +121,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/srikrish010697"
+    - label: "Google Scholar"
+      icon: "fab fa-fw fa-google"
+      url: "https://scholar.google.com/citations?user=gHmg-iwAAAAJ&hl=en"
 
 # Site Footer
 #footer:
