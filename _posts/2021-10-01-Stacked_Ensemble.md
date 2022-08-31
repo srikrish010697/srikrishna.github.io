@@ -18,7 +18,7 @@ I designed and implemented an end-to-end ML pipeline for quality prediction with
 ## 3.	RESULTS
 The proposed architecture for ensemble learning as described in Figure 1, uses a stacked ensemble of base learners and a XGBoost meta model. The base learner hyperparameters are tuned using training data with 5-fold cross validation using Bayesian and Genetic optimisation algorithms. N base model predictions are then used to train the XGBoost meta learner, where the target is actual QA measurement in training set. For extra trees’ ensemble, two extra tree models serve as base learners while NN_XGB uses two neural network, 2 XGBoost and 1 Extra Tree models as base learners. 
 
-![Figure 1: Proposed ensemble stacked model](images/DPT_files/Picture1.png)
+![Figure 1: Proposed ensemble stacked model]({{ site.baseurl }}/images/DPT_files/Picture1.png))
 
  
 The following regression algorithms are compared based on an unseen test dataset. From Table 1, we found that the proposed extra trees ensemble model outperformed all the other algorithms including extra trees based on aggregated score, NRMSE, NMAE and R-squared value. The aggregated score (higher is better) accounts for the model’s bias-variance trade-off. The NN_XGB model performed better than neural network and AdaBoost models, and nearly as good as the boosting algorithms namely XGBoost and Gradient Boost. Hence, the proposed ensemble methods are more robust and generalise well for an unseen test dataset than their baseline counterparts. 
@@ -48,5 +48,7 @@ we can flag out important process-related features that can assist operators/tec
 
 ## REFERENCES
 [1]	Katoch, S., Chauhan, S.S. & Kumar, V. A review on genetic algorithm: past, present, and future. Multimed Tools Appl 80, 8091–8126 (2021). https://doi.org/10.1007/s11042-020-10139-6
+
 [2]	B. Shahriari, K. Swersky, Z. Wang, R. P. Adams and N. de Freitas, "Taking the Human Out of the Loop: A Review of Bayesian Optimization," in Proceedings of the IEEE, vol. 104, no. 1, pp. 148-175, Jan. 2016, doi: 10.1109/JPROC.2015.2494218.
+
 [3]	Vilone, Giulia, and Luca Longo. "Explainable artificial intelligence: a systematic review." arXiv preprint arXiv:2006.00093 (2020).
