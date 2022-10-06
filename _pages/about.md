@@ -16,7 +16,7 @@ In my free time, I like to play the cajon (still learning!) and listen to indian
 * Deep learning
 * Ensemble learning
 * Time series modelling : Predictive maintenance, anomaly detection
-* Multimodal machine learning : NLP, Computer vision, Speech, Audio
+* Multimodal machine learning : NLP, Computer vision, Speech, Audio, Time-series
 
 My research goal is to leverage data-driven AI to extract key insights from structured and unstructured data that relates to existing knowledge of the world (eg. Images, language, sensors), thereby investigating and developing probabilistic models that are robust, generalized, interpretable, and optimized to help solve real-world problems more efficiently. More specifically, integrating multiple modalities including language, images and structured information using mutlimodal machine learning, thus tackle five key challenges associated to it:
 (1) Representation learning 
