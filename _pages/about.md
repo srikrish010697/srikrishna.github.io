@@ -14,9 +14,8 @@ I am a Senior Research Engineer at [ST Engineering](https://www.stengg.com/) in 
 
 * Deep learning
 * Ensemble learning
-* Explainable AI
 * Time series modelling : Predictive maintenance, anomaly detection
-* Multimodal machine learning learning : NLP, Computer vision
+* Multimodal machine learning : NLP, Computer vision, Speech, Audio
 
 My research goal is to leverage data-driven AI to extract key insights from structured and unstructured data that relates to existing knowledge of the world (eg. Images, language, sensors), thereby investigating and developing probabilistic models that are robust, generalized, interpretable, and optimized to help solve real-world problems more efficiently. More specifically, integrating multiple modalities including language, images and structured information using mutlimodal machine learning, thus tackle five key challenges associated to it:
 (1) Representation learning 
