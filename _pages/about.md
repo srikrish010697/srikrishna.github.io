@@ -9,6 +9,7 @@ author_profile: true
 ## Srikrishna Iyer
 
 I am a Senior Research Engineer at [ST Engineering](https://www.stengg.com/) in the Data analytics strategic technology centre [DA STC](https://www.stengg.com/en/innovation/solving-the-world-s-problems-with-data-science/) where my general area of research is machine learning. I have a Masters degree from Nanyang Technological University, Singapore and I completed my undergrad in Vellore Institute of Technology, India. 
+In my free time, I like to play the cajon (still learning!) and listen to indian classical based fusion music!
 
 ## Research Interests
 
